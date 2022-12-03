@@ -17,9 +17,6 @@ const { input } = require("./3Input");
     }, 0)
   );
 };*/
-// group strings into sets of 3
-// find overlap between all 3
-// calculate n
 
 const taskThree = () => {
   let shelf = [];
@@ -50,21 +47,7 @@ const taskThree = () => {
     }
     return result + n;
   }, 0);
-  // const intersection = shelf[0][0].filter((element) => shelf[0][1].includes(element));
-  /*console.log(
-    formated.reduce((result, value) => {
-      const first = value.slice(0, value.length / 2);
-      const second = value.slice(value.length / 2, value.length);
-      const firstArray = first.split("");
-      const secondArray = second.split("");
-      const intersection = firstArray.filter((element) => secondArray.includes(element));
-      var n = intersection[0].toLowerCase().charCodeAt(0) - 96;
-      if (intersection[0] === intersection[0].toUpperCase()) {
-        return result + n + 26;
-      }
-      return result + n;
-    }, 0)
-  );*/
+
   console.log(answer);
 };
 
