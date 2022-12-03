@@ -1,4 +1,4 @@
-const { input } = require("./taskOneInput");
+const { input } = require("./1Input");
 
 const sum = (array) => {
   return array.reduce((result, value) => {

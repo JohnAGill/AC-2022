@@ -1,4 +1,4 @@
-const { input } = require("./taskTwoInput");
+const { input } = require("./2Input");
 
 const getWinner = (me) => {
   if (me === "X") {
