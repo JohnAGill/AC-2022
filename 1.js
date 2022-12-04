@@ -26,7 +26,7 @@ const task1 = () => {
   const totals2 = removeHighest(totals, first);
   const second = Math.max(...totals2);
   console.log(second);
-
+  å;
   const totals3 = removeHighest(totals2, second);
   const third = Math.max(...totals3);
   console.log(third);
